@@ -21,6 +21,7 @@ bookRoutes.post('/', controller.create);
 bookRoutes.put('/', controller.update);
 
 // DELETE
+bookRoutes.delete('/', controller.deleteBook);
 
 // EXPORT THE ROUTER !!!
 module.exports = bookRoutes;
