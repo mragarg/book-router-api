@@ -18,6 +18,7 @@ bookRoutes.get('/', controller.retrieveAll);
 bookRoutes.post('/', controller.create);
 
 // PUT
+bookRoutes.put('/', controller.update);
 
 // DELETE
 
