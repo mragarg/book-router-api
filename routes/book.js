@@ -15,6 +15,7 @@ const bookRoutes = Router();
 bookRoutes.get('/', controller.retrieveAll);
 
 // POST
+bookRoutes.post('/', controller.create);
 
 // PUT
 
