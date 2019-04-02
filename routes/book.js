@@ -12,7 +12,7 @@ const bookRoutes = Router();
 
 // Handlers for my routers
 // GET
-bookRoutes.get('/', controller.create);
+bookRoutes.get('/', controller.retrieveAll);
 
 // POST
 
