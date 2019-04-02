@@ -19,3 +19,6 @@ bookRoutes.get('/', controller.create);
 // PUT
 
 // DELETE
+
+// EXPORT THE ROUTER !!!
+module.exports = bookRoutes;
